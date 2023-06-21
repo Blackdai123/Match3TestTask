@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b05f49c873e1448b197693c6231105, type: 3}
+  m_Name: LVL1
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 11
+  obstacleLvl1First: {fileID: 1252515302665785442, guid: 05907fad7e18a9f42a14a04903d4634d, type: 3}
+  obstacleLvl2First: {fileID: 12806264673576273, guid: cfaea1c6b64d9be46af58d27052167fb, type: 3}
+  obstacleLvl1Second: {fileID: 462073070952289195, guid: e74bd09d4190b2a48ab49e5f6ce50ad5, type: 3}
+  obstacleLvl2Second: {fileID: 3891307255242887456, guid: e6220c67c8cc1ce4fbd3335b3f5c1b8e, type: 3}
+  backgraundTile: {fileID: 9116293267880081142, guid: d9153bb36b9f7a44eb5c7f67975d2fb2, type: 3}
+  posFirsObstacleLvl1:
+  - {x: 1, y: 1}
+  posFirsObstacleLvl2:
+  - {x: 1, y: 7}
+  posSecondObstacleLvl1:
+  - {x: 5, y: 8}
+  posSecondObstacleLvl2:
+  - {x: 5, y: 2}
+  goalCollectTheNumberOfTokens: 1
+  timeToScore: 600
+  requiredNumberOfPoints: 100
+  goalIsToDestroyAllObstacles: 0
+  goalIsToDestroyCertainTokens: 0
+  quantityRedTokens: 5
+  quantityGreenTokens: 5
+  quantityBlueTokens: 5
+  quantityYellowTokens: 5
+  quantityPinkTokens: 5
